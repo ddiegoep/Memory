@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="banner">MEMORY
+            <div>
+                <div id="bannerCard1"></div>
+            <div id="bannerCard2"></div>
+            </div>
+        </div>
+        <div class = "counters">
+        </div>
+        <div id="board">
+        </div>
+    </main>
+
+    <audio src="./Sounds/cardFlip.mp3" class="sound" id="cardFlipSound" preload="auto"></audio>
+    <audio src="./Sounds/rightGuess.mp3" class="sound" id="rightGuessSound" preload="auto"></audio>
+    <audio src="./Sounds/error.mp3" class="sound" id="wrongGuessSound" preload="auto"></audio>
+
+    <script src="./JS/globalVariables.js"></script>
+    <script src="./JS/shuffleAndDeal.js"></script>
+    <script src="./JS/rightOrWrong.js"></script>
+    <script src="./JS/flipAndCheck.js"></script>
+    <script src="./JS/chronoAndCounter.js"></script>
+    <script src="./JS/winOrLose.js"></script>
+    <script src="./JS/startAndLevels.js"></script>
+    <script src="./JS/startRelaxMode.js"></script>
+    <script src="./JS/menu.js"></script>
+</body>
+</html>
