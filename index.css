@@ -89,10 +89,10 @@ p {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 1rem;
+    font-size: 2rem;
     margin: 2rem;
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
     color: #310A31;
     cursor: pointer;
     background-color: #7890D6;
@@ -115,9 +115,9 @@ p {
 }
 
 .playButton {
-    height: 2rem;
-    width: 5rem;
-    font-size: 1.3rem;
+    height: 3rem;
+    width: 6rem;
+    font-size: 2rem;
     color: #310A31;
     cursor: pointer;
     background-color: #7890D6;
@@ -131,9 +131,9 @@ p {
 }
 
 .playRelaxMode {
-    height: 2rem;
-    width: 8rem;
-    font-size: 0.8rem;
+    height: rem;
+    width: 17rem;
+    font-size: 2rem;
     color: #310A31;
     cursor: pointer;
     background-color: #7890D6;
@@ -152,6 +152,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 /*level counter*/
@@ -269,9 +270,9 @@ p {
 }
 
 .retryButton {
-    height: 2rem;
-    width: 5rem;
-    font-size: 1.3rem;
+    height: 3rem;
+    width: 7rem;
+    font-size: 2rem;
     color: #310A31;
     cursor: pointer;
     background-color: #7890D6;
@@ -292,9 +293,9 @@ p {
 }
 
 .nextLevelButton {
-    height: 2rem;
-    width: 8rem;
-    font-size: 1.3rem;
+    height: 3rem;
+    width: 12rem;
+    font-size: 2rem;
     color: #310A31;
     cursor: pointer;
     background-color: #7890D6;
@@ -314,9 +315,9 @@ p {
     margin: auto;
     margin-top: 1rem;
     text-align: center;
-    height: 1.5rem;
-    width: 3rem;
-    font-size: 0.7rem;
+    height: 2rem;
+    width: 5rem;
+    font-size: 1rem;
     color: #310A31;
     cursor: pointer;
     background-color: #7890D6;
