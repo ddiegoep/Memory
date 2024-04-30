@@ -24,10 +24,10 @@ const setTimer = () => {
             currentWidth = currentWidth - widthInterval;
             timeBar.style.width = currentWidth + "%";
             if (currentWidth < 50) {
-                timeBar.style.backgroundColor = "orange";
+                timeBar.style.backgroundColor = "#B99758";
             };
             if (currentWidth < 25) {
-                timeBar.style.backgroundColor = "red";
+                timeBar.style.backgroundColor = "#B95858";
             };
             if (currentWidth < 0) {
                 lostOnTime();

@@ -181,7 +181,7 @@ p {
     height: 2rem;
     width: 100%;
     border-radius: 0.8rem;
-    background-color: green;
+    background-color: #2E6D2E;
 }
 
 /*movement counters*/
@@ -273,6 +273,7 @@ p {
     height: 3rem;
     width: 7rem;
     font-size: 2rem;
+    margin: 1rem;
     color: #310A31;
     cursor: pointer;
     background-color: #7890D6;
@@ -295,6 +296,7 @@ p {
 .nextLevelButton {
     height: 3rem;
     width: 12rem;
+    margin: 1rem;
     font-size: 2rem;
     color: #310A31;
     cursor: pointer;
